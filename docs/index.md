@@ -50,7 +50,7 @@ I have others that casts shadow bolt / seed for popping cooldowns before execute
 
 To maximize your uptime, you also want a clean opener.
 Generally, you should open: shadow bolt -> haunt -> unstable affliction -> corruption -> curse of agony.
-You can swap haunt and unstable affliction, but importantly this gives guarantees your shadow bolt will land before you cast corruption.
+You can swap haunt and unstable affliction, but importantly this guarantees your shadow bolt will land before you cast corruption.
 If you can, precast shadow bolt so that the cast goes off as the pull timer reaches zero. I use this macro to precast:
 ```
 #showtooltip
@@ -69,7 +69,7 @@ If you've got the above down, you're 80% of the way there. Below are some tips f
 - On fights short fights (< 1 minute long or so) or if you're going to recast corruption (see next section) pre-pop potion of speed.
 Otherwise, pre-pop potion of wild magic.
 - Precast life tap before pull. If you have illustration, prestack that to 10.
-As dying curse can proc off life tap, I try to proc it ~45 seconds before we pull, so I don't accidentaly proc it while stacking illustration.
+As dying curse can proc off life tap, I try to proc it ~45 seconds before we pull, so I don't accidentally proc it while stacking illustration.
 - Send your pet onto the boss, with shadow bite auto-cast, and forget about it.
 I macro /petattack into my haunt spell, since I generally only cast it on bosses but am not spamming it.
 Make sure to remove this for yogg-saron.
@@ -78,7 +78,7 @@ Make sure to remove this for yogg-saron.
 - Try not to clip your dots, i.e. recast them before they fall off.
 It's better to lose some dot uptime casting another shadow bolt than to clip your dots.
 This is especially so for curse of agony, as its damage is backloaded.
-If you're not going to be able to hit the boss for an extended period of time, e.g. if the boss becomes untargetable, or you get stunned (e.g. maex), or you have to move, it may be worth it to clip to maintain dot uptime.
+If you're not going to be able to hit the boss for an extended period of time, e.g. if the boss becomes untargetable or you get stunned (e.g. maex) or you have to move, it may be worth it to clip to maintain dot uptime.
 - On the other hand, clipping haunt is totally fine, and you should try to maintain 100% haunt uptime.
 As haunt has a travel time, you may need to cast it earlier based on how far you are from the boss.
 I have a weakaura to help with this (see below).
@@ -104,10 +104,12 @@ Made it all the way here? Thanks for reading! Now it gets fun... and technical.
 Playing affliction is all about optimizing your corruption and drain soul damage.
 Your corruption recalculates damage based on enemy debuffs (e.g. shadow embrace 15%, haunt 23%, or earth and moon 13%) on each tick, so don't worry about these at all.
 It recalculates damage based on your haste and spell power every time it's refreshed, so you also don't really worry about this because corruption gets refreshed all the time.
+
 However, it snapshots critical chance and personal damage buffs (e.g. tricks 15% or death's embrace 12% on targets below 35% health) on cast --
 whatever crit chance and personal damage buffs you have when you cast apply to the corruption until it falls off.
 This is why you prepop potion of wild magic and why affliction locks should get tricks at the start of the fight, if there's no threat problems.
 If you get a tricks'd corruption, I'm pretty sure it's a dps loss to recast at 35% for death's embrace, unless you get a second tricks, but people still do it because it's still a parse increase (since tricks doesn't count towards parses).
+
 Lastly, watch out because sometimes the game won't let you recast corruption, if your spell power of the existing one is higher than your current spell power.
 It'll display an error message like "you have a more powerful spell active", but that can be hard to see.
 I just got a weakaura that is supposed to tell you when (a) you're supposed to recast corruption and (b) you aren't able to because of the spell power difference, so hopefully that works.
@@ -118,7 +120,7 @@ Some bosses give you buffs that give you increased crit chance or damage. It's a
 - Spark on __Malygos__ (50-100% damage based on stack)
 - Rune of power on __Iron Council__ (50-100% damage based on stack)
 - Mushroom buff on __Freya__ (25% damage, but you need to be in it to cast, so don't think you need to think about this)
-- Sara's Fervor on __Yogg-Saron__ (20% damage, phase 1 buff, idt this actually matters)
+
 If you're super sweaty, on iron council, if you get a double rune, you should cast corruption on Steelbreaker and maintain it all through phases 1 and 2, so you have the 100% damage buff for the phase 3 burn.
 
 That's a lot of text for what may literally just be, recast corruption when this weakaura tells you to, if the weakaura actually works. But hey, sometimes it's nice to know the why.
@@ -130,15 +132,16 @@ To do this, you'll often want to clip your drain soul, i.e. recast it right afte
 - Snapshot new buffs not included in your previous drain
 - Get a new, full-length drain before buffs fall off
 
-You should consider the relative importance of different buffs. For example, in approximate order:
+You should consider the relative importance of different buffs.
+Here's some buffs we get, in approximate order of importance:
 - Heroism (30% haste)
 - Eradication (20% haste) / power infusion (20% haste) - Dying curse (765 spell power, ~20% of your spell power so almost 20% damage increase)
 - Potion of Speed (15% haste) - Hyperspeed accelerators (10% haste)
 - Tailoring cloak enchant (295 spell power)
 - Glyph of life tap (spell power = 20% of spirit)
-Of course, there's other trinkets and buffs, not to mention all the encounter-specific ones.
 
-The decision making here is all about when to clip or hold a drain, while maintaining haunt and your dots. Let's go through a few examples.
+The decision making around execute phase is all about when to clip or hold a drain, while maintaining haunt and your dots.
+Let's go through a few examples.
 
 > You cast drain soul and dying curse procs
 
