@@ -173,6 +173,8 @@ Finish your current drain tick, then cast haunt, then cast a full length drain.
 You're refreshing haunt early here, but this lets you get a full length drain with all your buffs.
 If you instead continue draining / recast drain, you'll only get a couple ticks of drain off before you have to refresh haunt, and by the time you cast haunt, your buffs are gone.
 
+---
+
 Lastly, let's talk about pet management.
 Your felhunter does pretty good damage, so you'll want it on the boss as much as possible.
 You can micromanage your pet to try to avoid raid damage, like sarth fire walls.
