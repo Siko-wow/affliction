@@ -1,3 +1,5 @@
+# Affliction Warlock Guide
+
 ## Beginner -- The Basics
 
 Never played affliction before?
