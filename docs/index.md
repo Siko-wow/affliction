@@ -1,9 +1,3 @@
-# Affliction Warlock Guide
-
-Hey guys, with all the new locks (looking at you padredoom) and affliction locks' importance on yogg-saron, I wanted to write a ~~quick~~ guide from what I've learned playing affliction in phase 1.
-I'll leave gear, consumes, etc. out and focus on fight mechanics / rotation.
-The guide is broken into progressive levels to hopefully make this more digestible, sorry in advance for the long post :sweat_smile:
-
 ## Beginner -- The Basics
 
 Never played affliction before?
@@ -145,20 +139,25 @@ Of course, there's other trinkets and buffs, not to mention all the encounter-sp
 The decision making here is all about when to clip or hold a drain, while maintaining haunt and your dots. Let's go through a few examples.
 
 > You cast drain soul and dying curse procs
+
 The <proc on spell cast> trinkets like dying curse don't actually apply to the spell that proc'd it, so you should recast drain after one tick.
 
 > The boss is high health, you're draining and have no buffs, and notice haunt, ua, and CoA are about to fall off
+
 Finish your current tick, then refresh haunt and both dots, prioritizing whichever is going to fall off first, then redrain.
 If your dots are going to get their full duration, it's better to refresh them than drain, and you have no buffs to worry about snapshotting.
 
 > You cast haunt and notice dying curse and eradication are going to fall off in 4s
+
 Cast drain soul after haunt, then clip it right before your buffs fall off, and hold that drain as long as you can.
 
 > You're draining, multiple buffs only have 1s left, and unstable affliction falls off
+
 Probably best to recast drain and ride it out until you have to cast haunt, losing UA uptime.
 After the haunt, you can probably refresh UA, because you won't have as many buffs to snapshot.
 
 > You're draining and notice haunt has ~5s left, while multiple buffs have only 3s left
+
 Finish your current drain tick, then cast haunt, then cast a full length drain.
 You're refreshing haunt early here, but this lets you get a full length drain with all your buffs.
 If you instead continue draining / recast drain, you'll only get a couple ticks of drain off before you have to refresh haunt, and by the time you cast haunt, your buffs are gone.
@@ -172,7 +171,7 @@ because the silence and dispel come in helpful in raid sometimes, especially the
 
 Alright! That's basically all I have. Hopefully you found this helpful and not too tedious to read.
 
-## P.S. -- Parsing Strats
+## P.S. (Parsing Strats)
 - Use inferno when there's 1 minute left.
 On fights shorter than 1 minute, you can spawn the inferno on you right before the pull.
 It does a ton of damage, especially on fights where aoe counts. The inferno can easily turn an orange parse into a pink one.
