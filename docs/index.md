@@ -127,6 +127,8 @@ If you're super sweaty, on iron council, if you get a double rune, you should ca
 
 That's a lot of text for what may literally just be, recast corruption when this weakaura tells you to, if the weakaura actually works. But hey, sometimes it's nice to know the why.
 
+---
+
 The most fun part of affliction, imo, and the area for highest skill expression is execute phase.
 No class matches the throughput of an affliction warlock at boss health < 25%.
 Your drain soul snapshots its spell power, haste, and personal damage buffs on cast. If you can line up several procs / cooldowns at once, you do _crazy_ damage.
@@ -141,6 +143,8 @@ Here's some buffs we get, in approximate order of importance:
 - Potion of Speed (15% haste) - Hyperspeed accelerators (10% haste)
 - Tailoring cloak enchant (295 spell power)
 - Glyph of life tap (spell power = 20% of spirit)
+
+___
 
 The decision making around execute phase is all about when to clip or hold a drain, while maintaining haunt and your dots.
 Let's go through a few examples.
