@@ -208,7 +208,7 @@ If you do this, you can do 2 shadow bolts in the opener before haunt.
 ```
 
 ## Weakaura
-I pulled this weakaura from Crix back at the start of the expansion and have edited it to my linking.
+I pulled this weakaura from Crix back at the start of the expansion and have edited it to my liking.
 It's still a WIP so I might change this from time to time.
 And sorry if things are broken!
 ```
